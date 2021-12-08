@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll_View">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="18dp">
+
+
+
+
+        <TextView
+            android:id="@+id/Basic_Concepts_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+
+
+            android:layout_marginTop="24dp"
+
+            android:shadowColor="#191919"
+            android:text="Some Basic Concepts of Chemistry"
+            android:textAlignment="textStart"
+            android:textColor="#191919"
+
+            android:textSize="14sp"
+
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint_Layout_for_Card1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="@+id/Basic_Concepts_TextView"
+            app:layout_constraintTop_toBottomOf="@+id/Basic_Concepts_TextView">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></androidx.recyclerview.widget.RecyclerView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/stucture_of_Atom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="24dp"
+
+            android:shadowColor="#191919"
+            android:text="Stucture Of Atom"
+            android:textAlignment="textStart"
+            android:textColor="#191919"
+
+            android:textSize="14sp"
+            android:textStyle="bold"
+
+            app:layout_constraintStart_toStartOf="@+id/constraint_Layout_for_Card1"
+            app:layout_constraintTop_toBottomOf="@id/constraint_Layout_for_Card1"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_two_structure_of_Atom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="@+id/stucture_of_Atom"
+            app:layout_constraintTop_toBottomOf="@id/stucture_of_Atom" >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/Classification_of_Elements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="24dp"
+            android:shadowColor="#191919"
+            android:text="Classification of Elements and periodicity in Properties 74
+Periodicity in Properties 74"
+            android:textAlignment="textStart"
+
+            android:textColor="#191919"
+            android:textSize="14sp"
+            android:textStyle="bold"
+
+
+            app:layout_constraintStart_toStartOf="@+id/recycler_two_structure_of_Atom"
+            app:layout_constraintTop_toBottomOf="@+id/recycler_two_structure_of_Atom" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_three_classification_of"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="@id/Classification_of_Elements"
+            app:layout_constraintTop_toBottomOf="@+id/Classification_of_Elements">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+        <TextView
+            android:id="@+id/stucture_of_Atom_textViewtwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="24dp"
+            android:shadowColor="#191919"
+            android:text="Stucture of Atom"
+            android:textAlignment="textStart"
+
+            android:textColor="#191919"
+            android:textSize="14sp"
+            android:textStyle="bold"
+
+
+            app:layout_constraintStart_toStartOf="@+id/recycler_three_classification_of"
+            app:layout_constraintTop_toBottomOf="@+id/recycler_three_classification_of" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_four_Structure_of_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="@id/stucture_of_Atom_textViewtwo"
+            app:layout_constraintTop_toBottomOf="@+id/stucture_of_Atom_textViewtwo">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

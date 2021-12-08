@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Brigosha Guest/AndroidStudioProjects/Geography/app/src/main/res/layout/activity_main.xml" value="0.2623456790123457" />
+        <entry key="..\:/Users/Brigosha Guest/AndroidStudioProjects/Geography/app/src/main/res/layout/app_bar.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Brigosha Guest/AndroidStudioProjects/Geography/app/src/main/res/layout/lecture_fragment.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/Brigosha Guest/AndroidStudioProjects/Geography/app/src/main/res/layout/lecture_notes.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Brigosha Guest/AndroidStudioProjects/Geography/app/src/main/res/layout/notes_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Brigosha Guest/AndroidStudioProjects/Geography/app/src/main/res/layout/question_bank.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Brigosha Guest/AndroidStudioProjects/Geography/app/src/main/res/layout/question_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Brigosha Guest/AndroidStudioProjects/Geography/app/src/main/res/layout/question_fragment.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/Brigosha Guest/AndroidStudioProjects/Geography/app/src/main/res/layout/video_card.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Brigosha Guest/AndroidStudioProjects/Geography/app/src/main/res/layout/video_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/Brigosha Guest/AndroidStudioProjects/Geography/app/src/main/res/layout/video_layout.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/Brigosha Guest/AndroidStudioProjects/Geography/app/src/main/res/layout/videos.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Brigosha Guest/AndroidStudioProjects/Geography/app/src/main/res/menu/menu.xml" value="0.1685185185185185" />
+        <entry key="..\:/Users/Sneha/AndroidStudioProjects/Geography/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/Sneha/AndroidStudioProjects/Geography/app/src/main/res/layout/lecture_fragment.xml" value="0.12047101449275362" />
+        <entry key="..\:/Users/Sneha/AndroidStudioProjects/Geography/app/src/main/res/layout/notes_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sneha/AndroidStudioProjects/Geography/app/src/main/res/layout/question_card.xml" value="0.1" />
+        <entry key="..\:/Users/Sneha/AndroidStudioProjects/Geography/app/src/main/res/layout/question_fragment.xml" value="0.12047101449275362" />
+        <entry key="..\:/Users/Sneha/AndroidStudioProjects/Geography/app/src/main/res/layout/video_card.xml" value="0.16259057971014493" />
+        <entry key="..\:/Users/Sneha/AndroidStudioProjects/Geography/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
